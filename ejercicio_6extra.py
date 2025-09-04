@@ -4,4 +4,4 @@ import pandas as pd
 # Promedio total del curso
 promedio_curso = df_alumnos['promedio'].mean().round(1)
 
-print(f"El promedio total del curso es: {promedio_curso}")
+print(f"\nEl promedio total del curso es: {promedio_curso}")

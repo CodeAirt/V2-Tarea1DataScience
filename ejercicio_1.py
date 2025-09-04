@@ -1,7 +1,7 @@
 from tarea1DataScience import df_alumnos
 import numpy as np
 
-# 1.-Calculo de promedios de notas de cada estudiante
+# 1.-Calculo promedio notas de cada estudiante
 df_alumnos['promedio'] = df_alumnos['nota'].apply(np.mean).round(1)
 
 # Encontrar el promedio más alto y más bajo

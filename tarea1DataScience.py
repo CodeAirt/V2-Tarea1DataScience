@@ -1,4 +1,5 @@
 import pandas as pd
+from validacion_de_datos import verificar_listado_notas
 
 # Crea un DataFrame desde un diccionario
 estudiantes = [
@@ -35,3 +36,5 @@ estudiantes = [
 ]
 
 df_alumnos = pd.DataFrame(estudiantes)
+
+df_alumnos = verificar_listado_notas(df_alumnos)
